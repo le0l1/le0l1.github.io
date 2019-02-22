@@ -7,6 +7,9 @@ jobs:
           name: install hexo
           command: npm i -g hexo
       - run:
+          name: check path
+          command: pwd && ls
+      - run:
           name: deploy
           command: hexo g -d
     branches:
