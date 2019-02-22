@@ -1,11 +1,14 @@
 jobs:
   build:
     docker:
-      - image: node
+      - image: node:alpine
     steps:
-      - run: |
-          npm  i -g hexo
-          hexo g -d
+      - run:
+          name: install hexo
+          command: npm i -g hexo
+      - run:
+          name: deploy
+          command: hexo g -d
     branches:
       only:
         - dev
