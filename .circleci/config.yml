@@ -3,7 +3,9 @@ jobs:
   build:
     docker:
       - image: node:alpine
+    branches:
+      - dev
     steps:
       - run: |
-          npm - g hexo
+          npm  i -g hexo
           hexo g -d
