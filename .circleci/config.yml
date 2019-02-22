@@ -1,0 +1,9 @@
+version: 1
+jobs:
+  build:
+    docker:
+      - image: node:alpine
+    steps:
+      - run: |
+          npm - g hexo
+          hexo g -d
