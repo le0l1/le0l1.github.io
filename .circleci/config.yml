@@ -7,4 +7,5 @@ jobs:
           npm  i -g hexo
           hexo g -d
     branches:
-      - dev
+      only:
+        - dev
