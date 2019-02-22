@@ -8,7 +8,7 @@ jobs:
           command: npm i -g hexo
       - run:
           name: check path
-          command: pwd && ls
+          command: ls
       - run:
           name: deploy
           command: hexo g -d
