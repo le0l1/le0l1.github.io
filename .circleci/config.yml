@@ -2,13 +2,13 @@ jobs:
   build:
     docker:
       - image: node:current
+
+    working_directory: ~/repo
+
     steps:
       - run:
           name: install hexo
           command: npm i -g hexo
-      - run:
-          name: check path
-          command: ls ~/repo
       - run:
           name: deploy
           command: hexo g -d
