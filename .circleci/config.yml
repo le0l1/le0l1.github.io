@@ -10,11 +10,11 @@ jobs:
       - checkout
 
       - run:
-          name: install hexo
-          command: npm i -g hexo
+          name: install node_modules
+          command: npm i
       - run:
           name: deploy
-          command: hexo g -d
+          command: npm run deploy
     branches:
       only:
         - dev
