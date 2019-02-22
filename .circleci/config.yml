@@ -1,11 +1,10 @@
-version: 1
 jobs:
   build:
     docker:
       - image: node:alpine
-    branches:
-      - dev
     steps:
       - run: |
           npm  i -g hexo
           hexo g -d
+    branches:
+      - dev
