@@ -1,7 +1,7 @@
 jobs:
   build:
     docker:
-      - image: node:alpine
+      - image: node
     steps:
       - run: |
           npm  i -g hexo
