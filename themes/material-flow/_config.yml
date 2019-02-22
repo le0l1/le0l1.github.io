@@ -1,8 +1,8 @@
 # Search
-search: 
+search:
   enable: true
   service: hexo # google/hexo/algolia/azure/baidu
-  # google 
+  # google
   google_api_key:
   google_engine_id:
   # algolia
@@ -55,9 +55,17 @@ less:
 
 # use url, not username
 social:
-- slug: github
-  url: https://github.com/stkevintan
-- slug: twitter
-  url: https://twitter.com/kevinsfork
-- slug: rss
-	url: /atom.xml
+  - slug: github
+    url: https://github.com/stkevintan
+  - slug: twitter
+    url: https://twitter.com/kevinsfork
+  - slug: rss
+url: /atom.xml
+
+gitalk:
+  on: true
+  owner: le0l1
+  repo: le0l1.github.io
+  admin: ["le0l1"]
+  clientID: af4940ed9c1ad03fd197
+  clientSecret: ccca06c8b1052d30c8d545445f47895b1d2468e6
