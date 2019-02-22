@@ -1,7 +1,7 @@
 jobs:
   build:
     docker:
-      - image: node:alpine
+      - image: node:current
     steps:
       - run:
           name: install hexo
