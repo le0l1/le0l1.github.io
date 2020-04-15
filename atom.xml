@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Be Better</title>
+  
+  <subtitle>设想十年后的自我</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="le0l1.github.io/"/>
+  <updated>2020-04-15T12:53:15.474Z</updated>
+  <id>le0l1.github.io/</id>
+  
+  <author>
+    <name>le0l1</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>理财方式及投资组合</title>
+    <link href="le0l1.github.io/2020/04/15/%E7%90%86%E8%B4%A2%E6%96%B9%E5%BC%8F%E5%8F%8A%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%88/"/>
+    <id>le0l1.github.io/2020/04/15/理财方式及投资组合/</id>
+    <published>2020-04-15T20:31:36.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近看了很多的理财方面的书籍， 补全了一些有关于资产配置的事情， 意识到之前买理财的时候  存在一些很大的盲区， 虽然没有造成什么亏损， 但是收益不佳，连通货膨胀率4%都未能跑赢.</p><p>总的来说 <code>资产组合</code> 就是将资产分配到不同的投资项 不同的市场，降低风险的做法， 涉及到下面几个名词 大家可以去了解一下</p><ul><li><a href="https://baike.baidu.com/item/%E5%A4%8F%E6%99%AE%E6%AF%94%E7%8E%87/2549763?fr=aladdin" target="_blank" rel="noopener">夏普比率</a></li><li><a href="https://baike.baidu.com/item/%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE" target="_blank" rel="noopener">资产配置</a></li><li><a href="https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%9B%9E%E6%92%A4%E7%8E%87" target="_blank" rel="noopener">最大回撤</a></li></ul><h3 id="基本原则"><a href="#基本原则" class="headerlink" title="基本原则"></a>基本原则</h3><ul><li><p>不要亏钱 </p><p>巴菲特等投资大佬都特别强调过这一点， 一旦亏钱 你就必须得追求更大的收益率 达到你原本的目标</p></li><li><p>低估买入 高估卖出</p><p>资产要买便宜, 通过各种机构提供的估值表进行购买</p></li><li><p>指数投资</p><p>没有鉴股能力前, 请选择指数投资, 努力追求平均的时候  你就已经超越平均了</p></li><li><p>长期持有</p><p>不要做投机的人， 一旦投资失败  参考第一点</p></li><li><p>不要杠杠</p><p>告诫自己 杠杠放大风险，大神略过</p></li></ul><h3 id="投资策略"><a href="#投资策略" class="headerlink" title="投资策略"></a>投资策略</h3><p>通过参考GAA策略, 自己列了个相关的投资策略 (<em>该策略在&lt;全球资产配置&gt;有提及</em>)</p><p><img src="/static/finance-strategy.png" alt="finance-strategy"></p><p>大概就是按照上述的比例来进行资产的分配, 同时现金部分没有计算进去， 建议15%～20%的现金， 这样的话在经济衰退时期 可以有足够资金买入便宜资产</p><p>采用定投的方式，每一年做一次再平衡, 指数方面选择宽基搭配看好的行业指数 基金方面需要注意的是费率问题</p><h3 id="相关书单"><a href="#相关书单" class="headerlink" title="相关书单"></a>相关书单</h3><ul><li>&lt;全球资产配置&gt;</li><li>&lt;漫步华尔街&gt;</li><li>&lt;原则&gt;</li><li>&lt;哈利 布朗的永久投资组合&gt;</li><li>&lt;钱: 7步创造终身收入&gt;</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近看了很多的理财方面的书籍， 补全了一些有关于资产配置的事情， 意识到之前买理财的时候  存在一些很大的盲区， 虽然没有造成什么亏损， 但是收益不佳，连通货膨胀率4%都未能跑赢.&lt;/p&gt;
+&lt;p&gt;总的来说 &lt;code&gt;资产组合&lt;/code&gt; 就是将资产分配到不同的投资项 不
+      
+    
+    </summary>
+    
+    
+      <category term="理财" scheme="le0l1.github.io/tags/%E7%90%86%E8%B4%A2/"/>
+    
+      <category term="finance" scheme="le0l1.github.io/tags/finance/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>多格验证码输入框的实现 ; </title>
+    <link href="le0l1.github.io/2020/04/15/%E5%A4%9A%E6%A0%BC%E9%AA%8C%E8%AF%81%E7%A0%81%E8%BE%93%E5%85%A5%E6%A1%86%E7%9A%84%E5%AE%9E%E7%8E%B0/"/>
+    <id>le0l1.github.io/2020/04/15/多格验证码输入框的实现/</id>
+    <published>2020-04-15T20:20:41.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>近期遇到一个需求, 是要求做一个验证码的输入框, 设计图如下<br><img src="https://upload-images.jianshu.io/upload_images/10041071-6e294bea8954b799.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p>最开始是毫无思路的, 于是去看了下相关案例了解下. 了解下了两种大概的思路,</p><ul><li>通过<code>linear-gradient</code>来对输入框进行样式修改, 下面是我找到的一个StackoveFlow的实现方式</li></ul><p>css<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">input[type=&quot;text&quot;] &#123;</span><br><span class="line">  border: solid 1px dimgrey;</span><br><span class="line">  width: 400px;</span><br><span class="line">  background: repeating-linear-gradient(90deg, #ffffff 0px, #ffffff 19px, #000000 20px);</span><br><span class="line">  color: dimgrey;</span><br><span class="line">  font-family: monospace;</span><br><span class="line">  letter-spacing: 1.75ch;</span><br><span class="line">  padding-left: 0.8ch;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">input:focus &#123;</span><br><span class="line">  outline: none;</span><br><span class="line">  color: dodgerblue;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>html<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;label for=&quot;name&quot;&gt;Name:&lt;/label&gt;</span><br><span class="line">&lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; maxlength=&quot;20&quot; /&gt;</span><br></pre></td></tr></table></figure></p><ul><li>另外一种则是通过控制focus来进行处理,  下面是我通过这种方式封装的组件</li></ul><p>tsx<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">import &#123;Input, View&#125; from &quot;@tarojs/components&quot;;</span><br><span class="line">import Taro, &#123;Component&#125; from &quot;@tarojs/taro&quot;;</span><br><span class="line">import &apos;./index.scss&apos;</span><br><span class="line"></span><br><span class="line">type OwnProps =&#123;</span><br><span class="line">  value: string</span><br><span class="line">  onInput: (val?: string) =&gt; void</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">export default class CodeInput extends Component&lt;OwnProps&gt;  &#123;</span><br><span class="line">  public state = &#123;</span><br><span class="line">    focus: false,</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  render() &#123;</span><br><span class="line">    const computeClass = (index) =&gt; !!this.props.value[index] ? &apos;codeInput__code codeInput__code--active&apos; : &apos;codeInput__code&apos;</span><br><span class="line">    return (</span><br><span class="line">      &lt;View className=&apos;codeInput&apos;&gt;</span><br><span class="line">        &#123;</span><br><span class="line">          Array.from(&#123; length: 6 &#125;).map((_, index) =&gt; (</span><br><span class="line">            &lt;View className=&#123;computeClass(index)&#125;  onClick=&#123;() =&gt; this.setState(&#123; focus: true &#125;)&#125;&gt;</span><br><span class="line">              &#123;this.props.value[index]&#125;</span><br><span class="line">            &lt;/View&gt;</span><br><span class="line">          ))</span><br><span class="line">        &#125;</span><br><span class="line">        &lt;Input</span><br><span class="line">          className=&apos;codeInput__input&apos;</span><br><span class="line">          focus=&#123;this.state.focus&#125;</span><br><span class="line">          value=&#123;this.props.value&#125;</span><br><span class="line">          onInput=&#123;(e: any) =&gt; this.props.onInput(e.target.value)&#125;</span><br><span class="line">          maxLength=&#123;6&#125;</span><br><span class="line">        /&gt;</span><br><span class="line">      &lt;/View&gt;</span><br><span class="line">    )</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>scss<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">.codeInput &#123;</span><br><span class="line">  font-size: 34px;</span><br><span class="line">  position: relative;</span><br><span class="line">  display: flex;</span><br><span class="line">&#125;</span><br><span class="line">.codeInput__code &#123;</span><br><span class="line">  width: 82px;</span><br><span class="line">  height: 82px;</span><br><span class="line">  line-height: 82px;</span><br><span class="line">  text-align: center;</span><br><span class="line">  margin-left: 22px;</span><br><span class="line">  display: inline-block;</span><br><span class="line">  border: 1PX solid #DFDFDF;</span><br><span class="line">  &amp;:first-of-type &#123;</span><br><span class="line">    margin-left: 0;</span><br><span class="line">  &#125;</span><br><span class="line">  &amp;--active &#123;</span><br><span class="line">    border-color: $font-color;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line">.codeInput__input &#123;</span><br><span class="line">  position: absolute;</span><br><span class="line">  top: 22px;</span><br><span class="line">  left: 32px;</span><br><span class="line">  opacity: 0;</span><br><span class="line">  letter-spacing: 92px;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p><p>其思路就在于需要通过控制对验证码框的点击,  触发对透明输入框的focus, 用户的实际输入也就会到输入框里,  这时候每个小框再通过对应的下标获取到相应的值. </p><p>样式方面需要注意处理的是 <code>letter-spacing</code>, 如果没有处理, 则会导致 用户输入时的光标与对应的小框位置不匹配.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;近期遇到一个需求, 是要求做一个验证码的输入框, 设计图如下&lt;br&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/10041071-6e294bea8954b799.png?imageMogr2/auto-
+      
+    
+    </summary>
+    
+    
+      <category term="FE" scheme="le0l1.github.io/tags/FE/"/>
+    
+      <category term="Taro" scheme="le0l1.github.io/tags/Taro/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于package-lock, 你知道多少?</title>
+    <link href="le0l1.github.io/2020/04/15/%E5%85%B3%E4%BA%8Epackage-lock-%E4%BD%A0%E7%9F%A5%E9%81%93%E5%A4%9A%E5%B0%91/"/>
+    <id>le0l1.github.io/2020/04/15/关于package-lock-你知道多少/</id>
+    <published>2020-04-15T20:19:35.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>说到<code>package-lock.json</code>, 大家应该知道当执行<code>npm install</code>之后会产生, 实际上凡是当npm执行涉及到<code>node_modules</code>及<code>package.json</code>改动的操作时, <code>package-lock.json</code>都会发生改变, 其具体描述了当前依赖树是什么样子及每个依赖锁定的版本</p><p><code>package-lock.json</code>是在npm v5.x.x开始有的, 在平时的项目中，笔者看到很多人都是直接将<code>package-lock.json</code>删除, 重新安装 忽略了其作用，其实它可以帮助我们更好的做好依赖管理，来看看<a href="https://docs.npmjs.com/configuring-npm/package-lock-json.html" target="_blank" rel="noopener">文档</a>里列举的几项优点</p><blockquote><ul><li>Describe a single representation of a dependency tree such that teammates, deployments, and continuous integration are guaranteed to install exactly the same dependencies.</li><li>Provide a facility for users to “time-travel” to previous states of node_modules without having to commit the directory itself.</li><li>To facilitate greater visibility of tree changes through readable source control diffs.</li><li>And optimize the installation process by allowing npm to skip repeated metadata resolutions for previously-installed packages. </li></ul></blockquote><p>上面大概的意思是 我们能够通过<code>package-lock.json</code>保证在<strong>CI和部署这样的场景下保证依赖的一致性</strong>, 同时更好的做好依赖的版本控制, 而且它还可以起到优化依赖安装, 提高安装速度</p><p>抛开其他几点不说，我们先说一下<strong>CI和部署这样的场景下保证依赖的一致性</strong>, 笔者认为这点是<code>package-lock.json</code>给我们带来的最大好处</p><h3 id="场景"><a href="#场景" class="headerlink" title="场景"></a>场景</h3><p>笔者曾经遇到一个这样的场景, 之前安装过的第三方依赖<code>vue-property-decorator</code>，在本地开发时是正常工作的，但是当部署到线上时, 实际表现不一致, 排查下发现是线上环境与开发环境版本不一致导致的, 最后通过<code>npm ci</code>配合<code>package-lock.json</code>解决了这个问题. </p><p> 当然你也可以通过写死版本号的方式来做到这样，但是既然有了<code>package-lock.json</code>这样更好的解决方案，为何不用呢？</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>需要注意的是 当<code>package.json</code>的依赖有更新的版本时, 安装依赖的版本会被更新, 所以为确保在<strong>CI和部署这样的场景下保证依赖的一致性</strong>，请使用<a href="https://docs.npmjs.com/cli/ci.html" target="_blank" rel="noopener">npm ci</a>进行相关依赖， 这个命令会完全按照<code>package-lock.json</code>锁定的版本进行安装</p><h3 id="相关参考"><a href="#相关参考" class="headerlink" title="相关参考"></a>相关参考</h3><p><a href="https://github.com/npm/npm/issues/17979#issuecomment-332701215" target="_blank" rel="noopener">npm install与package-lock.json相关issue</a><br><a href="https://docs.npmjs.com/" target="_blank" rel="noopener">npmjs docs</a><br><a href="https://medium.com/coinmonks/everything-you-wanted-to-know-about-package-lock-json-b81911aa8ab8" target="_blank" rel="noopener">everything-you-wanted-to-know-about-package-lock-json</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;说到&lt;code&gt;package-lock.json&lt;/code&gt;, 大家应该知道当执行&lt;code&gt;npm install&lt;/code&gt;之后会产生, 实际上凡是当npm执行涉及到&lt;code&gt;node_modules&lt;/code&gt;及&lt;code&gt;package.json&lt;/cod
+      
+    
+    </summary>
+    
+    
+      <category term="FE" scheme="le0l1.github.io/tags/FE/"/>
+    
+      <category term="npm" scheme="le0l1.github.io/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GraphQL是什么？ 它能带来什么？</title>
+    <link href="le0l1.github.io/2019/05/04/GraphQL%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F%20%E5%AE%83%E8%83%BD%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
+    <id>le0l1.github.io/2019/05/04/GraphQL是什么？ 它能带来什么？/</id>
+    <published>2019-05-04T18:04:04.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>GraphQL是Facebook于2012年创造的一种用于描述CS应用中数据模型的能力和要求的语言</p><p>GraphQL的主要能力是用于API的查询,它能够提供很强大的聚合能力,同时提供了类型系统, 所有的类型系统都是通过代码来定义，一个 GraphQL 服务是通过定义类型和类型上的字段来创建的，然后给每个类型上的每个字段提供解析函数</p><p>通过一个简单地例子来说明下<code>GraphQL</code>的好处吧</p><p>现在有如下的业务场景，作为前端 我现在需要实现一个带有轮播图和产品列表的首页</p><p><img src="/static/graphql-sample.png" alt="场景"></p><p>如果后台接口是restful, 而没有后端来做接口的粘合的话, 前端应该会产生一下两个请求</p><ul><li><blockquote><p>GET /banner/index</p></blockquote></li><li><blockquote><p>GET /products</p></blockquote></li></ul><p>但是如果是GraphQL的话， 就不一样了</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">query  fetchIndexTemplate &#123;</span><br><span class="line">  banner</span><br><span class="line">  products</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>仅仅通过将<code>banner</code>、<code>products</code>写在同一个查询下，不需要额外的工作量，前端只产生了一次请求</p><p>还有一方面就是关于用户输入的检验,GraphQL的类型系统也给予了非常大的帮助,通常我们在做后端的接口时,需要对前端的输入做很多的validate</p><p>可能在Java中我们会通过注解的形式来处理</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">User</span> </span>&#123;</span><br><span class="line">    <span class="meta">@NotNull</span></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>而在GraphQL,我们可以直接通过schema的定义轻松限制</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">type User &#123;</span><br><span class="line">  &quot;name has to be String and it`s required&quot;</span><br><span class="line">  name: String!</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>同时通过<a href="https://graphql.cn/learn/schema/#scalar-types" target="_blank" rel="noopener">Scalar自定义类型</a> 我们可以添加更多的类型来限制前端的输入</p><p>并且GraphQL可以粘合<code>DB</code>、<code>RestFul</code>, <code>RPC</code>等等各类的方式，只需要实现对应的Resolver就OK了，同时可以在这一层做容错、鉴权、缓存等等</p><p><img src="/static/graphql-image.png" alt="图示"></p><p>对应的，GraphQL这层来做BFF的话,一定程度上是有转发带来的损耗的，同时Schema的设计不合理，会带来重复拉取数据等问题, 并且还存在一定的技术成本</p><p>总之对待技术，我们不能只看到其中的好处，也有去设想不同场景下技术方案的优劣性</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;GraphQL是Facebook于2012年创造的一种用于描述CS应用中数据模型的能力和要求的语言&lt;/p&gt;
+&lt;p&gt;GraphQL的主要能力是用于API的查询,它能够提供很强大的聚合能力,同时提供了类型系统, 所有的类型系统都是通过代码来定义，一个 GraphQL 服务是通过
+      
+    
+    </summary>
+    
+    
+      <category term="GraphQL" scheme="le0l1.github.io/tags/GraphQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XP极限编程</title>
+    <link href="le0l1.github.io/2019/04/15/XP%E6%9E%81%E9%99%90%E7%BC%96%E7%A8%8B/"/>
+    <id>le0l1.github.io/2019/04/15/XP极限编程/</id>
+    <published>2019-04-15T03:13:00.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在做项目的时候会遇到一些工程层面的问题,主要是软件质量没有保障、无法快速迭代、需求频繁等问题。因此我特地去找了一下相关方面的资料。 无意之间我发现了 XP 编程</p><h4 id="XP-编程"><a href="#XP-编程" class="headerlink" title="XP 编程"></a>XP 编程</h4><p>xp 编程也称为极限编程, 主要是分为几个部分</p><ul><li>价值观</li><li>原则</li><li>实践</li></ul><p>XP 编程的价值观中强调的是多沟通、有问题及时反馈、尊重等等. 原则方面讲究的是人性化、多样性、反省、改进等等</p><p>从价值观和原则方面来讲, XP 编程期望的是一个具有共同目标并且能够不断进步的一个团队。</p><p>从实践方面来讲, XP 编程鼓励测试先行、增量设计、持续集成、自动化、小步迭代、频繁迭代、结对编程</p><p>首先抛开书本上的知识来讲, 单从程序员的角度来讲讲我对 XP 编程实践方面的几个点的理解</p><h4 id="结对编程"><a href="#结对编程" class="headerlink" title="结对编程"></a>结对编程</h4><p>俗话说的好, 三个臭皮匠顶过诸葛亮, 在与其余的同事的结对编程中, 能够迸发出更多更好的思维，同时能够审视现有的设计是否合理, 使彼此都更加的专注, 同时对彼此的团队实践负责</p><h4 id="持续集成"><a href="#持续集成" class="headerlink" title="持续集成"></a>持续集成</h4><p>现在的 CI CD 这类的工具是非常多的, 通过将构建和发布这类的工作自动化, 可以大大地提升效率, 减轻程序员的压力, 同时加上测试 lint 类的工具能够从一定程度上提高我们的代码质量</p><h4 id="测试优先"><a href="#测试优先" class="headerlink" title="测试优先"></a>测试优先</h4><p>测试优先 其实讲的就是 TDD 了, 在编写功能时先编写对应功能的测试用例, 之后在实现对应的功能逻辑, TDD 相当于是用测试用例来定义了功能需要实现的<code>Interface</code>, 而后的开发只是对于<code>Interface</code>的实现, 在配合上之前的持续集成 这样我们就不会出现那种这个 bug 修好别的 bug 又出现的情况, 通过测试来保证了程序的可用性</p><h4 id="小步迭代"><a href="#小步迭代" class="headerlink" title="小步迭代"></a>小步迭代</h4><p>在 XP 编程中，会将用户需求变成一个个<code>story</code>,并且进行重要度排序, 然后每一周都会有对应的<code>story</code>进行迭代, 然后每天都要进行多次集成和测试，最后会有周会来总结当前进度及反省上周问题等等</p><p>以上部分是我读过 XP 编程后自己的一些总结, 确实, 就我待过的项目来说, 测试不足 自动化程度低 需求没有优先级等等一系列问题, 导致项目的质量不够 与预期的工期也是相差甚远,毫无软件工程性可言, 现阶段我打算逐步将一些 XP 的理念融入工作中, 提升效率 提升软件质量</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近在做项目的时候会遇到一些工程层面的问题,主要是软件质量没有保障、无法快速迭代、需求频繁等问题。因此我特地去找了一下相关方面的资料。 无意之间我发现了 XP 编程&lt;/p&gt;
+&lt;h4 id=&quot;XP-编程&quot;&gt;&lt;a href=&quot;#XP-编程&quot; class=&quot;headerlink&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="软件工程" scheme="le0l1.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS编写规范 BEM</title>
+    <link href="le0l1.github.io/2019/03/05/CSS%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83-BEM/"/>
+    <id>le0l1.github.io/2019/03/05/CSS编写规范-BEM/</id>
+    <published>2019-03-05T03:45:37.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>写 CSS 并不是一件简单的工作，类名的取法、归类，但项目愈加庞大，因为 CSS 引起的各种问题会越来越多。<br>之前一直对 css 不怎么感冒,也没有了解过相关规范,在项目中也都是用<code>CSS Module</code>或者<code>Scoped Style</code>这种形式将类名进行混淆,并没有一个良好的规范来约定整个项目的样式编写,因此特地找了下对应的规范 <a href="http://getbem.com/introduction/" target="_blank" rel="noopener">BEM</a></p><p>简单讲一下<strong>BEM</strong>的命名规则,<strong>BEM</strong>分为 3 块 <a href="#Block"><code>Block</code></a> <a href="#Element"><code>Element</code></a> <a href="#Modifiler"><code>Modifiler</code></a></p><p>通用要求如下:</p><ul><li>类名可以包含拉丁字母，数字和短划线</li><li>只使用类选择器 <strong>即 class</strong></li><li>不要使用 tag name <strong>比如 h1 p</strong></li><li>与当前的页面的其他 block 或者 Element 没有依赖关系</li></ul><h4 id="Block"><a href="#Block" class="headerlink" title="Block"></a><code>Block</code></h4><hr><p><strong>Block</strong>即为块,通常的话我们可以根据组件来进行 block 的划分, 命名方面很简单：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.block</span></span><br></pre></td></tr></table></figure><h4 id="Element"><a href="#Element" class="headerlink" title="Element"></a><code>Element</code></h4><hr><p><strong>Element</strong>为元素, element 的类名为其上层 block 的名称再加上__</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.block__elem</span></span><br></pre></td></tr></table></figure><h4 id="Modifier"><a href="#Modifier" class="headerlink" title="Modifier"></a><code>Modifier</code></h4><hr><p><strong>Modifier</strong>为 block 或者 element 的某种状态, 类名为 block 或者 element 的类名加上--</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.block--theme-light</span></span><br><span class="line"><span class="selector-class">.block__elem--theme-light</span></span><br></pre></td></tr></table></figure><p>举几个例子理解下</p><p><strong>block &amp;&amp; element</strong></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">  <span class="selector-class">.block</span> &#123;</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-class">.block__elem</span> &#123;</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"block"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"block__elem"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p><strong>modifiler</strong></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="css">  <span class="selector-class">.block</span> &#123;</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-class">.block--theme</span> &#123;</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-class">.block__elem</span> &#123;</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-class">.block--theme</span> <span class="selector-class">.block__elem</span> &#123;</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="css">  <span class="selector-class">.block__eleme--disable</span> &#123;</span></span><br><span class="line">  &#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"block block--theme"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"block__elem  block__eleme--disable"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure><p>整体下来，BEM 还是挺简单的，感觉很适用于 UI 组件库这样的场景,同时也可以和 css module 结合使用.总的来说,BEM 整体提供了一套规范来树立一个比较良好的结构,遵循一定的规则来约束开发者,但是也会带来类名过长等问题。以后的项目的话可以尝试使用</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;写 CSS 并不是一件简单的工作，类名的取法、归类，但项目愈加庞大，因为 CSS 引起的各种问题会越来越多。&lt;br&gt;之前一直对 css 不怎么感冒,也没有了解过相关规范,在项目中也都是用&lt;code&gt;CSS Module&lt;/code&gt;或者&lt;code&gt;Scoped Style&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="FE" scheme="le0l1.github.io/tags/FE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Circle CI搭配Hexo 真香</title>
+    <link href="le0l1.github.io/2019/02/28/Circle-CI%E6%90%AD%E9%85%8DHexo-%E7%9C%9F%E9%A6%99/"/>
+    <id>le0l1.github.io/2019/02/28/Circle-CI搭配Hexo-真香/</id>
+    <published>2019-02-28T14:31:36.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近又开始把个人博客搞起来了，之前搞过一次，但是后面就没弄了…惰性啊!</p><h4 id="Hexo-的搭建"><a href="#Hexo-的搭建" class="headerlink" title="Hexo 的搭建"></a>Hexo 的搭建</h4><p>Hexo 的搭建还是蛮简单的，命令行几行搞定, 参考<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="noopener">Hexo 文档</a>,这里就不细讲了</p><h4 id="多台机器上写-Blog-怎么办？"><a href="#多台机器上写-Blog-怎么办？" class="headerlink" title="多台机器上写 Blog 怎么办？"></a>多台机器上写 Blog 怎么办？</h4><p>Hexo 发布主要是打包静态文件然后部署, 但是如果我们是在不同的机器上写 Blog 的话，那就很操蛋了, 可能又要重新搭建…, 这样的话为了  多台机器上都能流利地写吹逼，一般都会将 hexo 的文件放到 github 上，在别的机器上直接 clone 下来，<br> 然后将可以继续愉快地吹逼了～</p><h4 id="将发布工作交给-Circle-CI"><a href="#将发布工作交给-Circle-CI" class="headerlink" title="将发布工作交给 Circle CI"></a>将发布工作交给 Circle CI</h4><p>Cricle CI 是我在看 Youtube 广告上看到的(vue js 貌似也在用这个), 最近这段时间也是在弄一些 CI CD 之类的东西，建立一些工作流之类的,  简单看了下可以直接 watch github repo, 最重要的是还是免费的, 好吧  还要啥自行车 撸袖子开干吧</p><p> 简单注册后, 将 github 的 repo 添加到 project 中，并 Follow</p><p><img src="/static/circle-ci-jobs.png" alt="Circle CI Follow Project"><br><br>然后需要在自己的 repo 建立<code>/circleci/config.yml</code>，这个就是 circleci 配置,这里我贴一下我现在的发布配置</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="number">2</span></span><br><span class="line"><span class="attr">jobs:</span></span><br><span class="line">  <span class="attr">build:</span></span><br><span class="line">    <span class="attr">docker:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">image:</span> <span class="string">node:current</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">working_directory:</span> <span class="string">~/repo</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">steps:</span></span><br><span class="line">      <span class="comment"># Special step used to check out source code to the configured</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">checkout</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">run:</span></span><br><span class="line">          <span class="attr">name:</span> <span class="string">install</span> <span class="string">node_modules</span></span><br><span class="line">          <span class="attr">command:</span> <span class="string">npm</span> <span class="string">i</span></span><br><span class="line">      <span class="bullet">-</span> <span class="attr">run:</span></span><br><span class="line">          <span class="attr">name:</span> <span class="string">deploy</span></span><br><span class="line">          <span class="attr">command:</span> <span class="string">npm</span> <span class="string">run</span> <span class="string">deploy</span></span><br><span class="line">    <span class="attr">branches:</span></span><br><span class="line">      <span class="attr">only:</span></span><br><span class="line">        <span class="bullet">-</span> <span class="string">dev</span></span><br></pre></td></tr></table></figure><p>上面我是仅指定了<code>dev分支</code>进行发布，因为 Hexo 就是我的源代码,最后一步 deploy 就是打包发布到 github page 上去<br></p><h4 id="QA"><a href="#QA" class="headerlink" title="QA"></a>QA</h4><hr><blockquote><p>Circle CI npm install 的时候报错没有 package.json</p></blockquote><ul><li>Circle CI 配置里要注意<code>steps.checkout</code>, 没有这一步 Circle CI 是不会自动拉源代码的</li></ul><blockquote><p>Hexo 在  构建发布时提示没有权限</p></blockquote><ul><li>需要进入 Circle CI 权限配置 SSH Key</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近又开始把个人博客搞起来了，之前搞过一次，但是后面就没弄了…惰性啊!&lt;/p&gt;
+&lt;h4 id=&quot;Hexo-的搭建&quot;&gt;&lt;a href=&quot;#Hexo-的搭建&quot; class=&quot;headerlink&quot; title=&quot;Hexo 的搭建&quot;&gt;&lt;/a&gt;Hexo 的搭建&lt;/h4&gt;&lt;p&gt;Hex
+      
+    
+    </summary>
+    
+    
+      <category term="CI" scheme="le0l1.github.io/tags/CI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>怎么做一个前端在线主题切换</title>
+    <link href="le0l1.github.io/2019/02/22/%E6%80%8E%E4%B9%88%E5%81%9A%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E5%9C%A8%E7%BA%BF%E4%B8%BB%E9%A2%98%E5%88%87%E6%8D%A2/"/>
+    <id>le0l1.github.io/2019/02/22/怎么做一个前端在线主题切换/</id>
+    <published>2019-02-22T15:25:27.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>怎么做一个前端在线主题切换? 这个套路让我瞬间想起了 Ant Design, Ant Desgin 就有一个这样的功能，于是去看了官方文档。<br><img src="https://upload-images.jianshu.io/upload_images/10041071-940227bddb9a67ad.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p>文档上说的是利用 less 的 modifyVars 进行变量的覆写来实现的，于是我又去查了下<a href="http://lesscss.org/usage/#using-less-in-the-browser" target="_blank" rel="noopener">less</a>的文档, <code>less.js</code>会读取到<code>rel=&quot;stylesheet/less&quot;</code>的 link 的内容， 调用<code>less.modifyVars</code>会重新对读取到的内容进行编译，并且最终通过添加 <code>&lt;style&gt;&lt;/style&gt;</code>的形式， 覆盖掉之前的样式。</p><p>既然知道了这个原理，那我们需要想一下怎么利用<code>less</code>的这个特性实现页面主题色切换。</p><ol><li>首先我们需要一个 less 变量来定义当前的主题色，</li></ol><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">@theme-color:</span> black;</span><br></pre></td></tr></table></figure><ol start="2"><li>然后我们需要一个 less.js 来进行 modifyVars 的操作以及 less 文件的引入</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet/less&quot; type=&quot;text/css&quot; href=&quot;styles.less&quot; /&gt;</span><br><span class="line">&lt;script src=&quot;less.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><ol start="3"><li>最后我们只需要去写一个改变当前主题色的方法</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">changeTheme</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="built_in">window</span>.less.modifyVars(&#123;</span><br><span class="line">    <span class="string">"@theme-color"</span>: <span class="string">"red"</span></span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>好了, 上面就是我们的思路， 梳理好之后， 我们就要思考怎么和项目结合在一起</p><ol><li><p>less 的变量问题，其实相对来讲我们的项目中并不只会有一个<code>@theme-color</code>这种变量，这里面我们可能会有十多个变量， 包括我们可以去定义下全局的字体、字体大小，我们需要根据项目的特性进行划分</p></li><li><p>我们怎么去把框架中的 less 抽到我们打包后的 dist 文件中, 这里我推荐的做法是通过<a href="https://webpack.js.org/loaders/file-loader/#src/components/Sidebar/Sidebar.jsx" target="_blank" rel="noopener">file-loader</a>来做，配置如下</p></li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">// 我们需要在less-loader里将我们不要打包的less exclude掉</span><br><span class="line">// 本例中不需要打包的less为 styles.less</span><br><span class="line">&#123;</span><br><span class="line">      test: /\.less$/,</span><br><span class="line">      use: &quot;less-loader&quot;,</span><br><span class="line">      exclude: /styles\.less/</span><br><span class="line">&#125;,</span><br><span class="line">// 然后利用file-loader  将styles.less打包到我们项目的根目录</span><br><span class="line">// 如果不放在根目录下，可以根据实际情况进行配置</span><br><span class="line">&#123;</span><br><span class="line">      test: /\.less$/,</span><br><span class="line">      loader: &quot;file-loader&quot;,</span><br><span class="line">      options: &#123;</span><br><span class="line">          name: &quot;[name].[ext]&quot;    // 默认的话 会将name hash掉</span><br><span class="line">      &#125;</span><br><span class="line">      include: /styles\.less/</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>我们在项目中引用的话,就可以直接通过一下形式进行引用</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet/less&quot; type=&quot;text/css&quot; href=&quot;styles.less&quot; /&gt;</span><br></pre></td></tr></table></figure><ol start="3"><li>less.js<br>一般来说，我们可以直接通过在 html 里面加 script 标签的形式来做，但是我们需要考虑的是并不是每一个用户进来都会用主题换色这样一个功能，所以我们可以利用 webpack 的<a href="https://webpack.js.org/guides/lazy-loading/#src/components/Sidebar/Sidebar.jsx" target="_blank" rel="noopener">lazy load</a>来做些小优化。</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">loadLess</span>(<span class="params">option</span>) </span>&#123;</span><br><span class="line">  <span class="comment">// 如果之前已经加载就不再重复加载， 直接返回less</span></span><br><span class="line">  <span class="keyword">if</span> (!<span class="built_in">window</span>.less) &#123;</span><br><span class="line">    <span class="comment">// 通过先定义less 来注入option  参考 lesscss.org</span></span><br><span class="line">    <span class="built_in">window</span>.less = option</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">await</span> <span class="keyword">import</span>(<span class="string">"less"</span>)</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">window</span>.less</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>最后思考,如果我们下次遇到一个需求是说把全站的 button 的颜色都要直接在线变色,其实这就是一个前期架构的问题了,如果我们能在项目早期去做一些样式的抽象和管理，对于后续我们去实现这样一些需求,我们就不再头疼了,我们可以基于 less 的这种方式,去做一些整站的样式管理,项目也会更加清晰 易于修改.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;怎么做一个前端在线主题切换? 这个套路让我瞬间想起了 Ant Design, Ant Desgin 就有一个这样的功能，于是去看了官方文档。&lt;br&gt;&lt;img src=&quot;https://upload-images.jianshu.io/upload_images/100410
+      
+    
+    </summary>
+    
+    
+      <category term="FE" scheme="le0l1.github.io/tags/FE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java 注解依赖注入简易实现</title>
+    <link href="le0l1.github.io/2019/02/22/Java-%E6%B3%A8%E8%A7%A3%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5%E7%AE%80%E6%98%93%E5%AE%9E%E7%8E%B0/"/>
+    <id>le0l1.github.io/2019/02/22/Java-注解依赖注入简易实现/</id>
+    <published>2019-02-22T14:49:20.000Z</published>
+    <updated>2020-04-15T12:53:15.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在学习 Java 的 Spring Boot 框架, 知道其精髓就是 DI 和 AOP, 其中对于 DI(依赖注入), 我是比较感兴趣的，于是在网上查阅了一些资料，大概了解到了其大概原理是通过反射和注解来实现的，我先前还一直以为可以通过 Java 的注解和 TS 的装饰器是一样的，看过文档后才发现两个是有些不同的。<br>简单比较下:</p><ul><li>Java 的注解是有元注解来描述自定义的注解，注解里面可以添加属性 然后还有属性默认值,需要配合反射才能发挥出对应的作用</li><li>TS 的装饰器更像是函数，对目标进行修饰, 直接进行修改</li></ul><p>依赖注入的概念来讲还是很简单的，就是在面向对象中，我们的对象不可能实现全部的功能，有时候需要别的一些对象加入进来作为一个依赖</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span> </span>&#123;</span><br><span class="line">    <span class="comment">// need logger to do something...</span></span><br><span class="line">    <span class="keyword">private</span> Logger logger = <span class="keyword">new</span> Logger();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>上述的 demo 中, 我们的 Main 对象 需要一个 logger 来打印一些日志, 那我们就需要给他一个 logger 的实例，这就是最简单的依赖注入了</p><p>但是的话，如果每次需要一个新的依赖进来，我们都需要写一遍的 new XXX, 秉承 DRY 的原则，我们可以通过注解+反射的方式来做些处理，让注入的依赖自动返回实例, 而不需要手动地去 new</p><p>首先我们先声明一个注解来表示属性是需要进行依赖注入的</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">animation</span> </span>&#123;</span><br><span class="line">    <span class="comment">// 表示注解作用于属性上</span></span><br><span class="line">    <span class="meta">@Target</span>(value = &#123; ElementType.FIELD &#125;)</span><br><span class="line">   <span class="comment">// 表示注解在运行时依然可用</span></span><br><span class="line">    <span class="meta">@Retention</span>(value = RetentionPolicy.RUNTIME)</span><br><span class="line">    <span class="keyword">public</span> <span class="meta">@interface</span> Inject &#123;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>通过@Injenct 注解我们可以去注明那一些是需要进行依赖注入的。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span> </span>&#123;</span><br><span class="line">   <span class="meta">@inject</span></span><br><span class="line">   <span class="keyword">private</span> Logger logger;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>然后通过反射来获取注解</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Parse</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">     <span class="keyword">public</span> <span class="keyword">static</span> &lt;T&gt; <span class="function">T <span class="title">getBean</span><span class="params">(Class&lt;T&gt; c)</span> </span>&#123;</span><br><span class="line">         T result = <span class="keyword">null</span>;</span><br><span class="line">         <span class="keyword">try</span> &#123;</span><br><span class="line">             result = c.newInstance();</span><br><span class="line">             Field[] fields = c.getDeclaredFields();</span><br><span class="line">             <span class="keyword">for</span> (Field field : fields) &#123;</span><br><span class="line">                 Inject inject = field.getAnnotation(Inject<span class="class">.<span class="keyword">class</span>)</span>;</span><br><span class="line">                 <span class="keyword">if</span> (inject != <span class="keyword">null</span>) &#123;</span><br><span class="line">                     <span class="comment">// 递归解决依赖问题</span></span><br><span class="line">                     Object object = parse.getBean(field.getType());</span><br><span class="line">                     <span class="comment">// 针对private</span></span><br><span class="line">                     <span class="keyword">if</span> (!field.isAccessible())</span><br><span class="line">                         field.setAccessible(<span class="keyword">true</span>);</span><br><span class="line">                     field.set(result, object);</span><br><span class="line">                 &#125;</span><br><span class="line">             &#125;</span><br><span class="line">         &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">             System.out.println(e);</span><br><span class="line">         &#125;</span><br><span class="line">         <span class="keyword">return</span> result;</span><br><span class="line">     &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>简单描述下上面的过程: 1.获取运行时的注解，但凡是有@Inject 的注解则进行第 2 步 2.通过 field.getType()获取注入的 class, 通过递归进行对一层层的依赖进行处理, 注意最后会返回注入的 class 的实例, 跳至第 3 步 3.如果 field 不可访问，则进行 setAccessible(true), 跳至第 4 步 4.对对应的 field(属性)进行设置, 完成整个依赖注入的过程</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近在学习 Java 的 Spring Boot 框架, 知道其精髓就是 DI 和 AOP, 其中对于 DI(依赖注入), 我是比较感兴趣的，于是在网上查阅了一些资料，大概了解到了其大概原理是通过反射和注解来实现的，我先前还一直以为可以通过 Java 的注解和 TS 的装饰
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="le0l1.github.io/tags/Java/"/>
+    
+  </entry>
+  
+</feed>

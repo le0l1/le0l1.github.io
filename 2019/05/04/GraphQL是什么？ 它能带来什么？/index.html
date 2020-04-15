@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <title>GraphQL是什么？ 它能带来什么？ | Be Better</title>
+  <meta name="description" content>
+  <meta name="keywords" content>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="alternate" href="/atom.xml" title="Be Better">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="GraphQL是Facebook于2012年创造的一种用于描述CS应用中数据模型的能力和要求的语言 GraphQL的主要能力是用于API的查询,它能够提供很强大的聚合能力,同时提供了类型系统, 所有的类型系统都是通过代码来定义，一个 GraphQL 服务是通过定义类型和类型上的字段来创建的，然后给每个类型上的每个字段提供解析函数 通过一个简单地例子来说明下GraphQL的好处吧 现在有如下的业务场">
+<meta name="keywords" content="GraphQL">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GraphQL是什么？ 它能带来什么？">
+<meta property="og:url" content="le0l1.github.io/2019/05/04/GraphQL是什么？ 它能带来什么？/index.html">
+<meta property="og:site_name" content="Be Better">
+<meta property="og:description" content="GraphQL是Facebook于2012年创造的一种用于描述CS应用中数据模型的能力和要求的语言 GraphQL的主要能力是用于API的查询,它能够提供很强大的聚合能力,同时提供了类型系统, 所有的类型系统都是通过代码来定义，一个 GraphQL 服务是通过定义类型和类型上的字段来创建的，然后给每个类型上的每个字段提供解析函数 通过一个简单地例子来说明下GraphQL的好处吧 现在有如下的业务场">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="/static/graphql-sample.png">
+<meta property="og:image" content="/static/graphql-image.png">
+<meta property="og:updated_time" content="2020-04-15T12:53:15.474Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GraphQL是什么？ 它能带来什么？">
+<meta name="twitter:description" content="GraphQL是Facebook于2012年创造的一种用于描述CS应用中数据模型的能力和要求的语言 GraphQL的主要能力是用于API的查询,它能够提供很强大的聚合能力,同时提供了类型系统, 所有的类型系统都是通过代码来定义，一个 GraphQL 服务是通过定义类型和类型上的字段来创建的，然后给每个类型上的每个字段提供解析函数 通过一个简单地例子来说明下GraphQL的好处吧 现在有如下的业务场">
+<meta name="twitter:image" content="/static/graphql-sample.png">
+    
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="//cdn.bootcss.com/node-waves/0.7.5/waves.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+</head>
+</html>
+<body>
+  <div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
+</div>
+
+
+  <script>setLoadingBarProgress(20)</script> 
+  <header class="l_header">
+	<div class='wrapper'>
+		<div class="nav-main container container--flex">
+			<a class="logo flat-box" href='/' >
+				Be Better
+			</a>
+			<div class='menu'>
+				<ul class='h-list'>
+					
+						<li>
+							<a class='flat-box nav-home' href='/'>
+								Home
+							</a>
+						</li>
+					
+						<li>
+							<a class='flat-box nav-archives' href='/archives'>
+								Archives
+							</a>
+						</li>
+					
+				</ul>
+				<div class='underline'></div>
+			</div>
+			
+				<div class="m_search">
+					<form name="searchform" class="form u-search-form">
+						<input type="text" class="input u-search-input" placeholder="Search" />
+						<span class="icon icon-search"></span>
+					</form>
+				</div>
+			
+			<ul class='switcher h-list'>
+				
+					<li class='s-search'><a href='javascript:void(0)'><span class="icon icon-search flat-box"></span></a></li>
+				
+				<li class='s-menu'><a href='javascript:void(0)'><span class="icon icon-menu flat-box"></span></a></li>
+			</ul>
+		</div>
+		
+		<div class='nav-sub container container--flex'>
+			<a class="logo" class="flat-box" href='javascript:void(0)'>
+				Word of Forks
+			</a>
+
+			<ul class='switcher h-list'>
+				<li class='s-comment'><a href='javascript:void(0)'><span class="icon icon-chat_bubble_outline flat-box"></span></a></li>
+				<li class='s-top'><a href='javascript:void(0)'><span class="icon icon-arrow_upward flat-box"></span></a></li>
+				<li class='s-toc'><a href='javascript:void(0)'><span class="icon icon-format_list_numbered flat-box"></span></a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+<aside class="menu-phone">
+	<nav>
+		
+			<a href="/" class="nav-home nav">
+				Home
+			</a>
+		
+			<a href="/archives" class="nav-archives nav">
+				Archives
+			</a>
+		
+	</nav>
+</aside>
+
+    <script>setLoadingBarProgress(40);</script>
+  <div class="l_body">
+    <div class='container clearfix'>
+      <div class='l_main'>
+        <article
+  id="post-GraphQL是什么？ 它能带来什么？"
+  class="post white-box article-type-post"
+  itemscope
+  itemprop="blogPost"
+>
+  <section class="meta">
+    <h2 class="title">
+      <a href="/2019/05/04/GraphQL是什么？ 它能带来什么？/">
+        GraphQL是什么？ 它能带来什么？
+      </a>
+    </h2>
+    <time>
+      May 4, 2019
+    </time>
+    
+  </section>
+  
+  <section class="toc-wrapper"></section>
+  
+  <section class="article typo">
+    <div class="article-entry" itemprop="articleBody">
+      <p>GraphQL是Facebook于2012年创造的一种用于描述CS应用中数据模型的能力和要求的语言</p>
+<p>GraphQL的主要能力是用于API的查询,它能够提供很强大的聚合能力,同时提供了类型系统, 所有的类型系统都是通过代码来定义，一个 GraphQL 服务是通过定义类型和类型上的字段来创建的，然后给每个类型上的每个字段提供解析函数</p>
+<p>通过一个简单地例子来说明下<code>GraphQL</code>的好处吧</p>
+<p>现在有如下的业务场景，作为前端 我现在需要实现一个带有轮播图和产品列表的首页</p>
+<p><img src="/static/graphql-sample.png" alt="场景"></p>
+<p>如果后台接口是restful, 而没有后端来做接口的粘合的话, 前端应该会产生一下两个请求</p>
+<ul>
+<li><blockquote>
+<p>GET /banner/index</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>GET /products</p>
+</blockquote>
+</li>
+</ul>
+<p>但是如果是GraphQL的话， 就不一样了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">query  fetchIndexTemplate &#123;</span><br><span class="line">  banner</span><br><span class="line">  products</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>仅仅通过将<code>banner</code>、<code>products</code>写在同一个查询下，不需要额外的工作量，前端只产生了一次请求</p>
+<p>还有一方面就是关于用户输入的检验,GraphQL的类型系统也给予了非常大的帮助,通常我们在做后端的接口时,需要对前端的输入做很多的validate</p>
+<p>可能在Java中我们会通过注解的形式来处理</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">User</span> </span>&#123;</span><br><span class="line">    <span class="meta">@NotNull</span></span><br><span class="line">    <span class="keyword">private</span> String name;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>而在GraphQL,我们可以直接通过schema的定义轻松限制</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">type User &#123;</span><br><span class="line">  &quot;name has to be String and it`s required&quot;</span><br><span class="line">  name: String!</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>同时通过<a href="https://graphql.cn/learn/schema/#scalar-types" target="_blank" rel="noopener">Scalar自定义类型</a> 我们可以添加更多的类型来限制前端的输入</p>
+<p>并且GraphQL可以粘合<code>DB</code>、<code>RestFul</code>, <code>RPC</code>等等各类的方式，只需要实现对应的Resolver就OK了，同时可以在这一层做容错、鉴权、缓存等等</p>
+<p><img src="/static/graphql-image.png" alt="图示"></p>
+<p>对应的，GraphQL这层来做BFF的话,一定程度上是有转发带来的损耗的，同时Schema的设计不合理，会带来重复拉取数据等问题, 并且还存在一定的技术成本</p>
+<p>总之对待技术，我们不能只看到其中的好处，也有去设想不同场景下技术方案的优劣性</p>
+
+    </div>
+    
+    <div class="article-tags tags">
+      
+      <a href="/tags/GraphQL/">GraphQL</a>
+      
+    </div>
+     
+    <div class="art-item-footer">
+      
+      <span class="art-item-left"
+        ><i class="icon icon-chevron-thin-left"></i>prev：<a
+          href="/2020/04/15/关于package-lock-你知道多少/"
+          rel="prev"
+          title="关于package-lock, 你知道多少?"
+        >
+          关于package-lock, 你知道多少?
+        </a></span
+      >
+       
+      <span class="art-item-right"
+        >next：<a
+          href="/2019/04/15/XP极限编程/"
+          rel="next"
+          title="XP极限编程"
+        >
+          XP极限编程 </a
+        ><i class="icon icon-chevron-thin-right"></i
+      ></span>
+      
+    </div>
+    
+  </section>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: "af4940ed9c1ad03fd197",
+    clientSecret: "ccca06c8b1052d30c8d545445f47895b1d2468e6",
+    id: decodeURI(window.location.pathname),
+    repo: "le0l1.github.io",
+    owner: "le0l1",
+    admin: "le0l1",
+    distractionFreeMode: "true"
+  })
+  gitalk.render("gitalk-container")
+</script>
+ 
+</article>
+<script>
+  window.subData = {
+    title: "GraphQL是什么？ 它能带来什么？",
+    tools: true
+  }
+</script>
+
+      </div>
+      <aside class='l_side'>
+        
+  <section class='m_widget about'>
+
+<div class='header'>le0l1</div>
+<div class='content'>
+<div class='desc'>Tempora mutantur, nos et mutamur in illis ...</div>
+</div>
+</section>
+
+  <section class='m_widget links'>
+<div class='header'>Links</div>
+<div class='content'>
+    <ul class="entry">
+    
+    </ul>
+</div>
+</section>
+
+  <section class='m_widget categories'>
+<div class='header'>Categories</div>
+<div class='content'>
+    
+</div>
+</section>
+
+  
+<div class="m_widget tagcloud">
+    <div class="header">Tags</div>
+    <div class='content'>
+        <a href="/tags/CI/" style="font-size: 14px; color: #808080">CI</a> <a href="/tags/FE/" style="font-size: 20px; color: #000">FE</a> <a href="/tags/GraphQL/" style="font-size: 14px; color: #808080">GraphQL</a> <a href="/tags/Java/" style="font-size: 14px; color: #808080">Java</a> <a href="/tags/Taro/" style="font-size: 14px; color: #808080">Taro</a> <a href="/tags/finance/" style="font-size: 14px; color: #808080">finance</a> <a href="/tags/npm/" style="font-size: 14px; color: #808080">npm</a> <a href="/tags/理财/" style="font-size: 14px; color: #808080">理财</a> <a href="/tags/软件工程/" style="font-size: 14px; color: #808080">软件工程</a>
+    </div>
+</div>
+
+
+
+      </aside>
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+  </div>
+  <footer id="footer" class="clearfix">
+
+	<div class="social-wrapper">
+  	
+      
+        <a href="https://github.com/stkevintan" class="social github"
+          target="_blank" rel="external">
+          <span class="icon icon-github"></span>
+        </a>
+      
+        <a href="https://twitter.com/kevinsfork" class="social twitter"
+          target="_blank" rel="external">
+          <span class="icon icon-twitter"></span>
+        </a>
+      
+    
+  </div>
+  
+  <div>Theme <a href='https://github.com/stkevintan/hexo-theme-material-flow' class="codename">MaterialFlow</a> designed by <a href="http://keyin.me/" target="_blank">Kevin Tan</a>.</div>
+  
+</footer>
+
+
+  <script>setLoadingBarProgress(80);</script>
+  
+
+<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src='//cdn.bootcss.com/node-waves/0.7.5/waves.min.js'></script>
+<script src="//cdn.bootcss.com/scrollReveal.js/3.3.2/scrollreveal.min.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
+<script>
+	var GOOGLE_CUSTOM_SEARCH_API_KEY = "";
+	var GOOGLE_CUSTOM_SEARCH_ENGINE_ID = "";
+	var ALGOLIA_API_KEY = "";
+	var ALGOLIA_APP_ID = "";
+	var ALGOLIA_INDEX_NAME = "";
+  var AZURE_SERVICE_NAME = "";
+  var AZURE_INDEX_NAME = "";
+  var AZURE_QUERY_KEY = "";
+  var BAIDU_API_ID = "";
+  var SEARCH_SERVICE = "hexo";
+  var ROOT = "/"||"/";
+  if(!ROOT.endsWith('/'))ROOT += '/';
+</script>
+<script src="/js/search.js"></script>
+<script src="/js/app.js"></script>
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>
