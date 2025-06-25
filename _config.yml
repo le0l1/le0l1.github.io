@@ -81,5 +81,4 @@ favicon: favicon.ico
 deploy:
   type: git
   repo: git@github.com:le0l1/le0l1.github.io.git
-  token: $GH_TOKEN
   branch: master
