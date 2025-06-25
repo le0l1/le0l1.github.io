@@ -82,5 +82,6 @@ deploy:
   type: git
   repo: https://github.com/le0l1/le0l1.github.io.git
   name: le0l1
+  token: $GH_TOKEN
   email: leezzxuan@gmail.com
   branch: main
