@@ -16,12 +16,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-    
-
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Install dependencies
         run: |
-          git config --global url."git@github.com:".insteadOf https://github.com/
           npm install
 
       - name: Deploy to GitHub Pages
