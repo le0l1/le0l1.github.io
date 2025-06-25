@@ -83,4 +83,4 @@ deploy:
   repo: https://github.com/le0l1/le0l1.github.io.git
   name: le0l1
   email: leezzxuan@gmail.com
-  branch: master
+  branch: main
