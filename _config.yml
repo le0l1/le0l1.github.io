@@ -81,6 +81,4 @@ favicon: favicon.ico
 deploy:
   type: git
   repo: git@github.com:le0l1/le0l1.github.io.git
-  name: le0l1
-  email: leezzxuan@gmail.com
-  branch: main
+  branch: master
