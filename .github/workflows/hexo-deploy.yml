@@ -33,8 +33,10 @@ jobs:
           GIT_USER: ${{ github.actor }}
           GIT_EMAIL: ${{ github.actor }}@users.noreply.github.com
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        permissions:
+          pages: write
+          id-token: write
         run: |
           git config --global user.name "$GIT_USER"
           git config --global user.email "$GIT_EMAIL"
-          echo "GitHub Token: $GH_TOKEN"
           npx hexo d -f -g
