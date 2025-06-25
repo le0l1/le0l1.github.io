@@ -3,13 +3,13 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy": "hexo g -d"
+    "deploy": "hexo g -f -d"
   },
   "hexo": {
     "version": "6.3.0"
   },
   "dependencies": {
-    "hexo": "^6.3.0",
+    "hexo": "7.3.0",
     "hexo-autoprefixer": "^2.0.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",

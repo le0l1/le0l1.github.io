@@ -28,4 +28,4 @@ jobs:
         run: |
           git config --global user.name "$GIT_USER"
           git config --global user.email "$GIT_EMAIL"
-          npx hexo deploy 
+          npx hexo d -f -g
