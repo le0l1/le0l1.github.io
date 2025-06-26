@@ -75,11 +75,3 @@ pagination_dir: page
 theme: mytheme
 
 favicon: favicon.ico
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: https://github.com/le0l1/le0l1.github.io.git
-  token: $GH_TOKEN
-  branch: master

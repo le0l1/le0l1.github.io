@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Deploy to GitHub Pages
+      - name: Build Hexo
         env:
           GIT_USER: ${{ github.actor }}
           GIT_EMAIL: ${{ github.actor }}@users.noreply.github.com
@@ -40,4 +40,14 @@ jobs:
         run: |
           git config --global user.name "$GIT_USER"
           git config --global user.email "$GIT_EMAIL"
-          npx hexo d -f -g
+          npx hexo d -f
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: 'public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
