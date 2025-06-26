@@ -80,5 +80,5 @@ favicon: favicon.ico
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://${GH_TOKEN}@github.com/le0l1/le0l1.github.io.git
+  repo: https://$GH_TOKEN@github.com/le0l1/le0l1.github.io.git
   branch: master
